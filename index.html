@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaScript Random Background Color</title>
+    <link rel="stylesheet" type="text/css" href="https://demo.plantpot.works/assets/css/normalize.css">
+    <link rel="stylesheet" href="https://use.typekit.net/opg3wle.css">
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+
+    <style>
+        .visible {
+            display: none;
+        }
+    </style>
+</head>
+
+<body id=body>
+
+    <div class="container">
+        <button class="coment" id="btn">Komentaras</button>
+        <form class="forma" action="/action_page.php">
+            <label for="fname" class="visible" id=label1>Name:</label>
+            <input type="text" name="inputText" class="visible" id="inputText"></input>
+            <label for="text" class="visible" id=label2>Comment:</label>
+            <textarea class="visible" id="text"></textarea>
+        </form>
+
+        <button class="visible" id="btn1">Submit</button>
+        <button id=btn2 onclick="backgroundColor()">Change background color</button>
+
+
+    </div>
+
+    <script src="changeColor.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
